@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIVERSITY WEBSITE DESIGN</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d789795901.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class=" sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo2.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BOLG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+    <!------------about as content---------->
+    <section class="about-us">
+
+        <div class="row">
+            <div class="about-col">
+                <h1>We Are The Best-Ranked University In India.</h1>
+                <p>Indian Institute of Technology, Ropar is one of the eight new IITs set up by the
+                    Ministry of Human Resource Development (MHRD), Government of India, to expand the
+                    reach and enhance the quality of technical education in the country. This institute
+                    is committed to providing state-of-the-art technical education in a variety of fields
+                    and also for facilitating transmission of knowledge in keeping with latest developments
+                    in pedagogy. These two areas of focus will enable students to gain exposure to recent
+                    trends in their chosen domains of study and gain practical experience through a wide variety
+                    of activities the institute facilitates in its own campus and arranges for in collaboration with
+                    industry and other institutes. At present, the institute offers Bachelor of Technology (B. Tech.)
+                    programme in the following disciplines: Chemical Engineering,Civil Engineering,Computer Science and
+                    Engineering, Electrical Engineering, and Mechanical Engineering. This programme is spread over a
+                    period of eight semesters.<br> Institute also offers M.Tech programme in the following disciplines:
+                    CBME,
+                    Computer Science and Engineering, Electrical Engineering, and Mechanical Engineering. Institute also
+                    offers M.Sc programme in the following disciplines : Physcis,Chemistry and Maths. Institute also
+                    offers
+                    M.S(R) programme in the following disciplines : Computer Science and Engineering amd Electrical
+                    Engineering.
+                    In addition, the institute now offers doctoral programme in following disciplines.
+                    Engineering: Chemical Engineering,Civil Engineering,Computer Science and Engineering, Electrical
+                    Engineering,
+                    Mechanical Engineering and Metallurgical and Materials Engineering.
+                    Science : Chemistry, Physics and Mathematics
+                    Humanities and Social Sciences
+                    Biomedical Engineering</p>
+                <a href="course.html" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="images/staff.jpg">
+            </div>
+
+        </div>
+
+
+
+    </section>
+
+
+
+    <!--------footar-------------->
+
+    <section class="footar">
+        <h4>About Us</h4>
+        <p>Indian Institute of Technology, Ropar is one of the eight new IITs set up by the
+            Ministry of Human Resource Development (MHRD), Government of India,<br> to expand the
+             reach and enhance the quality of technical education in the country. 
+        </p>
+
+        <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fas fa-heart"></i> by Dhairyashil Khot.</p>
+    </section>
+
+    <!---javascript for toggle menu--->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>

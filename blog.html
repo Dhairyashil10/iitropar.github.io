@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIVERSITY WEBSITE DESIGN</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d789795901.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class=" sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo2.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BOLG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs For 2022</h1>
+    </section>
+
+    <!------BLOG PAGE CONTANT-------->
+
+    <section class="blog-content">
+
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/certificate.jpg">
+                <h2>Our Certificate & Online Programs For 2022</h2>
+                <p>Regulatory Affairs Certification (RAC), is the leading post-academic professional credential
+                    for regulatory professionals in the healthcare product sector. It is intended for individuals
+                    employed in regulatory agencies, industry, consultancies and other settings involved with the
+                    regulation of healthcare products. Regulatory Affairs Certification tests expertise in two sectors,
+                    pharmaceuticals and medical devices, and candidates may choose whether to take the RAC Drugs exam
+                    or the RAC Devices exam. All candidates who pass a RAC exam will be equally recognized by the RAC
+                    program and will be eligible to put ‘RAC’ after their name.
+                </p>
+                <br>
+                <p>There are two different RAC exams: RAC Drugs and RAC Devices.
+                    Each examination is based on a survey of the scope of practice and specific roles and
+                    responsibilities
+                    of regulatory professionals in the workplace with at least three years of regulatory experience.
+                    Each
+                    examination is reviewed and revised annually, and content is updated for the spring exam cycle.</p><br>
+                 <p>Exam content is based on regulations and guidelines in effect on 31 December of the year prior. So,
+                    exams
+                    taken in 2020 are based on regulations ‘on the books' on 31 December, 2019. For the RAC Devices
+                    exam, this
+                    includes both MDD and MDR.
+                    Each examination consists of 100 multiple choice questions to be answered in a two-hour period.</p><br>
+                  <p>Additional
+                    time may be allowed for candidates who have requested and received special accommodations.
+                    RAC exams may be taken in-person at an approved testing site or taken from the comfort of your home
+                    or office
+                    using Live Online Proctoring.</p><br>
+
+
+                <div class="comment-box">
+                    <h3>Leave A Comment</h3>
+
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter email">
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+
+
+            </div>
+            <div class="blog-right">
+                <h3> Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>31</span>
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>39</span>
+                </div>
+                <div>
+                    <span>commerce</span>
+                    <span>40</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--------footar-------------->
+
+    <section class="footar">
+        <h4>About Us</h4>
+        <p>Indian Institute of Technology, Ropar is one of the eight new IITs set up by the
+            Ministry of Human Resource Development (MHRD), Government of India,<br> to expand the
+             reach and enhance the quality of technical education in the country. 
+        </p>
+
+        <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fas fa-heart"></i> by Dhairyashil Khot.</p>
+    </section>
+
+    <!---javascript for toggle menu--->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
